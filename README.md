@@ -8,7 +8,7 @@ Este proyecto es una colección de diseños web realizados como práctica en cla
 
 Aprender a estructurar páginas web utilizando HTML y darles estilo mediante CSS. Se trabajó con múltiples diseños para reforzar el uso de distintas propiedades como:
 
-- Layouts con Flexbox y Grid
+- Layouts con flexbox
 - Colores, fuentes y tipografías
 - Posicionamiento y espaciado
 - Estilos responsivos y adaptativos
