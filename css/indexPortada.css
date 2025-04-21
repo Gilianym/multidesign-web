@@ -1,0 +1,517 @@
+body{
+  background-color: #FBF6E9;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav{ 
+  display: flex;
+  height: 130px;
+  align-items: center;
+  padding-left:20px ;
+  background-color: white;
+}
+
+.menu{
+  list-style-type: none;
+  margin-left: 25%;
+  display: flex;
+  gap: 40px;
+}
+
+.nombreG{
+  font-size: 25px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* CSS PAGINA PRINCIPAL */
+.palabra{
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.productos{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 40%;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.imagen{
+  padding-left: 5px;
+  position: relative;
+  margin-top: -50px;
+  width: 50%;
+  height: 20%;
+}
+
+
+/* CSS PARA PERSONAJE*/
+ 
+.contenedor-proyecto{
+  display: flex;
+  margin-top: 50px;
+} 
+.contenido-descripcion {
+  padding-left: 20px;
+}
+.nombre {
+  text-decoration: none;
+  font-family: "Ysabeau Office", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: black;
+}
+
+.contenido-descripcion p {
+  margin-top: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: black;
+}
+
+.foto{
+  width: 400px;
+  height: 400px;
+}
+
+.imagen1{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.imagen2{
+  margin-left: 20px;
+}
+
+hr {
+  width: 95%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 2px;
+  border: none;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.contenedor-proyecto1{
+  display: flex;
+} 
+.relevancia{
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Ysabeau Office", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: black;
+}
+
+.espacio-top {
+  margin-top: 10px;
+}
+
+.pie-foto {
+  margin-left: 20px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.contenido-descripcion1 p{
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: black;
+}
+
+.contenedor-video{
+  margin-left: 20px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Ysabeau Office", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: black;
+}
+
+.contenedor-video h3{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+}
+
+.video-yt {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  height: 50px;
+  background-color: black;
+  color: black;
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer h5{
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+/* CSS para precios */
+.cajas-precios {
+  display: flex;
+  gap: 20px;
+  margin-top: 9%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.caja{
+  width: 30%;
+  height: 300px;
+  background-color: wheat;
+  text-align: center;
+  gap: 10px;
+}
+
+.caja h2 {
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+.caja h1 {
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.contenedor-boton  {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contenedor-boton button{
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  border: none;
+}
+
+.planes {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+.plan{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.planes p {
+  font-size: 15px;
+  margin-left: 5px;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media (max-width:1250px) {
+  .cajas-precios {
+    align-items: center;
+    flex-direction: column;
+  }
+  .caja{
+    width: 80%;
+    height: 300px;
+    background-color: wheat;
+    text-align: center;
+    gap: 10px;
+  }
+}
+  
+/* CSS para portal */
+.nombre-empresa{
+  margin-top: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #F9C0AB;
+}
+
+.eslogan{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:black;
+  font-size: 40px;
+}
+
+.rosa{
+  color: #F9C0AB;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.caja-portal{
+  margin-left: 3%;
+}
+
+.tarta1{
+  width: 300px;
+  float: left;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.contenedor-titulo{
+  float: left;
+  margin-top: 55px;
+  font-family: "Ysabeau Office", serif;
+  font-weight: 200;
+  font-style: italic;
+  color: black;
+}
+
+.contenedor-titulo h1{
+  font-family: "Ysabeau Office", serif;
+  font-weight: 250;
+  font-style: italic;
+  color: black;
+}
+
+.contenedor-texto{
+  font-family: "Poppins", serif;
+  font-weight: 250;
+  font-style: normal;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .nombre-empresa{
+    margin-top: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #F9C0AB;
+  }
+  
+  .eslogan{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    font-size: 40px;
+  }
+  
+  .rosa{
+    color: #F9C0AB;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .caja-portal{
+    margin-left: 3%;
+  }
+  
+  .tarta1{
+    width: 300px;
+    float: none;
+    margin: 20px;
+    margin-top: 50px;
+  }
+  
+  .contenedor-titulo{
+    float: none;
+    margin-top: 5px;
+    font-family: "Ysabeau Office", serif;
+    font-weight: 200;
+    font-style: italic;
+    color: black;
+  }
+  
+  .contenedor-titulo h1{
+    font-family: "Ysabeau Office", serif;
+    font-weight: 250;
+    font-style: italic;
+    color: black;
+  }
+  
+  .contenedor-texto{
+    font-family: "Poppins", serif;
+    font-weight: 250;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 681px) {
+  .nombre-empresa{
+    margin-top: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #F9C0AB;
+  }
+  
+  .eslogan{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    font-size: 40px;
+  }
+  
+  .rosa{
+    color: #F9C0AB;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .tarta1{
+    width: 100px;
+    float: left;
+    margin: 20px;
+    margin-top: 50px;
+  }
+  
+  .contenedor-titulo{
+    float: left;
+    margin-top: 55px;
+    font-family: "Ysabeau Office", serif;
+    font-weight: 200;
+    font-style: italic;
+    color: black;
+  }
+  
+  .contenedor-titulo h1{
+    font-family: "Ysabeau Office", serif;
+    font-weight: 250;
+    font-style: italic;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .contenedor-texto{
+    font-family: "Poppins", serif;
+    font-weight: 250;
+    font-style: normal;
+    color: black;
+    font-size: 7px;
+
+  } 
+}
+
+@media (min-width: 1024px) {
+  .contenedor-titulo h1{
+    font-family: "Ysabeau Office", serif;
+    font-weight: 250;
+    font-style: italic;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .contenedor-texto{
+    font-family: "Poppins", serif;
+    font-weight: 250;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+  }
+
+  .tarta1{
+    width: 300px;
+    float: left;
+    margin: 20px;
+    margin-top: 50px;
+  }
+}
+
+/* CSS descripcion */
+.descripcion-proyecto h4{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-family: "Poppins", serif;
+  font-weight: 250;
+  font-style: normal;
+  color: black;
+  font-size: 14px;
+}
+
+.num{
+  margin-right: 50px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #F9C0AB;
+  font-size: 20px;
+}
+
+.tit {
+  font-family: "Ysabeau Office", serif;
+  font-weight: 250;
+  font-style: italic;
+  color: black;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+hr {
+  width: 95%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 2px;
+  border: none;
+  background-color: black;
+  opacity: 0.2;
+}
+
